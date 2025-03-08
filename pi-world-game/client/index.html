@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi World Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/libs/three.min.js"></script>
+    <script src="js/libs/socket.io.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div id="gameContainer"></div>
+    <div id="chatContainer">
+        <input type="text" id="chatInput" placeholder="Type your message...">
+        <button id="sendChat">Send</button>
+    </div>
+    <div id="hudContainer">
+        <div id="healthDisplay">Health: 100</div>
+        <div id="piPowerDisplay">Pi Power: 0</div>
+    </div>
+</body>
+</html>
